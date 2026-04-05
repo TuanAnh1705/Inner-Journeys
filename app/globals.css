@@ -27,25 +27,26 @@ body {
 
 @font-face {
   font-family: 'Blackstone';
-  src: url('/fonts/BlackStones.otf')  format('opentype');
+  src: url('/fonts/BlackStones.otf') format('opentype');
   font-weight: lighter;
   font-style: italic;
-  font-display: fallback;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'HiguenElage';
-  src: url('/fonts/HiguenSerif') format('opentype');
+  src: url('/fonts/HiguenSerif.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
-
 
 @font-face {
   font-family: 'LeagueSpartan';
   src: url('/fonts/LeagueSpartan.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ── Scroll-reveal animations ── */

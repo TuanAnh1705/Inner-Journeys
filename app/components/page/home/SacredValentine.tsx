@@ -28,7 +28,7 @@ const SacredValentine: React.FC = () => {
         {/* Subtitle */}
         <FadeIn delay={200}>
           <p
-            className="text-[16px] sm:text-[18px] md:text-[20px] leading-[1.4] sm:leading-[1.8] mb-6 font-semibold"
+            className="text-[16px] sm:text-[18px] md:text-[20px] leading-[1.4] sm:leading-[1.2] mb-6 font-semibold"
             style={{ fontFamily: "'DM Sans', sans-serif", color: "#a359a0" }}
           >
             A journey of deep connection,
